@@ -338,7 +338,7 @@ export function Insights() {
           {homeContent.blogs.map((blog) => (
             <article className="dc-card overflow-hidden" key={blog.image}>
               <a
-                href={blog.href}
+                href="#"
                 target="_blank"
                 rel="noreferrer"
                 className="relative block"
@@ -363,7 +363,7 @@ export function Insights() {
                 </h3>
                 <a
                   className="dc-text-link"
-                  href={blog.href}
+                  href="#"
                   target="_blank"
                   rel="noreferrer"
                 >
