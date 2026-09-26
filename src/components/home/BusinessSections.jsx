@@ -347,7 +347,7 @@ export function Insights() {
                   src={blog.image}
                   alt={blog.title}
                   loading="lazy"
-                  className="h-[230px] w-full object-cover"
+                  className="h-[270px] w-full object-cover"
                 />
                 <span className="absolute bottom-3 left-4 rounded bg-[#086ad8] px-3 py-1 text-xs font-semibold text-white">
                   {blog.category}
