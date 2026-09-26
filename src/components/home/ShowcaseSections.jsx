@@ -179,7 +179,7 @@ export function ExpertTeam() {
     >
       <SectionHeading
         lead="Expert Team at"
-        accent="DigiCoders"
+        accent="HexSoftwares"
         subtitle="Experienced. Creative. Passionate. — reference team gallery"
       >
         <div className="flex gap-2">
