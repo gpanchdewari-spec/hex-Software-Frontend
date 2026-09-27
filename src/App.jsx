@@ -22,6 +22,7 @@ import Login from "./pages/Login";
 import Profile from "./pages/Profile";
 import UserProtectedRoute from "./components/UserProtectedRoute";
 import WelcomePopup from "./components/WelcomePopup";
+import TechLeadPopup from "./components/TechLeadPopup";
 function Shell() {
   const l = useLocation();
   useEffect(() => {
@@ -34,6 +35,7 @@ function Shell() {
       {isHome && <HomeTopBars />}
       {!admin && (isHome ? <div className="home-navbar"><Navbar /></div> : <Navbar />)}
       {!admin && !isHome && <WelcomePopup />}
+      {<TechLeadPopup />}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
