@@ -47,7 +47,7 @@ export function ClientsBanner() {
         <div className="shrink-0 text-sm font-bold text-slate-800 sm:border-r sm:pr-6">
           Client <span className="text-[#086ad8]">Showcase</span>
           <span className="mt-1 block text-[10px] font-normal text-slate-400">
-            DigiCoders reference gallery
+             gallery
           </span>
         </div>
         <div className="dc-marquee min-w-0 flex-1 max-sm:w-full">
